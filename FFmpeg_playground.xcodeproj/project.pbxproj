@@ -120,7 +120,6 @@
 				110E8C2E1EC4186000E18803 /* Main.storyboard */,
 				110E8C311EC4186000E18803 /* Assets.xcassets */,
 				110E8C331EC4186000E18803 /* LaunchScreen.storyboard */,
-				110E8C361EC4186000E18803 /* Info.plist */,
 				110E8C251EC4186000E18803 /* Supporting Files */,
 			);
 			path = FFmpeg_playground;
@@ -130,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				110E8C261EC4186000E18803 /* main.m */,
+				110E8C361EC4186000E18803 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -651,6 +651,7 @@
 				110E8C511EC4186000E18803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		110E8C521EC4186000E18803 /* Build configuration list for PBXNativeTarget "FFmpeg_playgroundTests" */ = {
 			isa = XCConfigurationList;
@@ -659,6 +660,7 @@
 				110E8C541EC4186000E18803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		110E8C551EC4186000E18803 /* Build configuration list for PBXNativeTarget "FFmpeg_playgroundUITests" */ = {
 			isa = XCConfigurationList;
@@ -667,6 +669,7 @@
 				110E8C571EC4186000E18803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
