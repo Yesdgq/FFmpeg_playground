@@ -15,6 +15,8 @@
 		110E8C351EC4186000E18803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110E8C331EC4186000E18803 /* LaunchScreen.storyboard */; };
 		110E8C401EC4186000E18803 /* FFmpeg_playgroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E8C3F1EC4186000E18803 /* FFmpeg_playgroundTests.m */; };
 		110E8C4B1EC4186000E18803 /* FFmpeg_playgroundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E8C4A1EC4186000E18803 /* FFmpeg_playgroundUITests.m */; };
+		3C33253701E5BB1025AE8B04 /* Pods_FFmpeg_playground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E1A8EFCAC2B555CC9FE2F9 /* Pods_FFmpeg_playground.framework */; };
+		4BCB7379EE79CCAC35D651BF /* Pods_FFmpeg_playgroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F6FF85218FF0126E6697D1 /* Pods_FFmpeg_playgroundTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,12 @@
 		110E8C461EC4186000E18803 /* FFmpeg_playgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFmpeg_playgroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		110E8C4A1EC4186000E18803 /* FFmpeg_playgroundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFmpeg_playgroundUITests.m; sourceTree = "<group>"; };
 		110E8C4C1EC4186000E18803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542B4D7E3969B59CE03CBE9B /* Pods-FFmpeg_playgroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFmpeg_playgroundTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFmpeg_playgroundTests/Pods-FFmpeg_playgroundTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55F6FF85218FF0126E6697D1 /* Pods_FFmpeg_playgroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFmpeg_playgroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03D4C8C7C4BD08FC8C63E27 /* Pods-FFmpeg_playgroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFmpeg_playgroundTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFmpeg_playgroundTests/Pods-FFmpeg_playgroundTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7E2A40E5885101BCFF98F01 /* Pods-FFmpeg_playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFmpeg_playground.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFmpeg_playground/Pods-FFmpeg_playground.release.xcconfig"; sourceTree = "<group>"; };
+		E8CBEB19F8613B8AD35A7ACA /* Pods-FFmpeg_playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFmpeg_playground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFmpeg_playground/Pods-FFmpeg_playground.debug.xcconfig"; sourceTree = "<group>"; };
+		F8E1A8EFCAC2B555CC9FE2F9 /* Pods_FFmpeg_playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFmpeg_playground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C33253701E5BB1025AE8B04 /* Pods_FFmpeg_playground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BCB7379EE79CCAC35D651BF /* Pods_FFmpeg_playgroundTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +95,8 @@
 				110E8C3E1EC4186000E18803 /* FFmpeg_playgroundTests */,
 				110E8C491EC4186000E18803 /* FFmpeg_playgroundUITests */,
 				110E8C231EC4186000E18803 /* Products */,
+				C5B090F0CE1D4CFE21E5D91E /* Pods */,
+				F0AF76AC31AFE7FFBFBEA55C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +152,26 @@
 			path = FFmpeg_playgroundUITests;
 			sourceTree = "<group>";
 		};
+		C5B090F0CE1D4CFE21E5D91E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8CBEB19F8613B8AD35A7ACA /* Pods-FFmpeg_playground.debug.xcconfig */,
+				C7E2A40E5885101BCFF98F01 /* Pods-FFmpeg_playground.release.xcconfig */,
+				542B4D7E3969B59CE03CBE9B /* Pods-FFmpeg_playgroundTests.debug.xcconfig */,
+				A03D4C8C7C4BD08FC8C63E27 /* Pods-FFmpeg_playgroundTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0AF76AC31AFE7FFBFBEA55C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8E1A8EFCAC2B555CC9FE2F9 /* Pods_FFmpeg_playground.framework */,
+				55F6FF85218FF0126E6697D1 /* Pods_FFmpeg_playgroundTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 110E8C4F1EC4186000E18803 /* Build configuration list for PBXNativeTarget "FFmpeg_playground" */;
 			buildPhases = (
+				9D85ED6AC9BF9EBEBECDE52B /* [CP] Check Pods Manifest.lock */,
 				110E8C1E1EC4186000E18803 /* Sources */,
 				110E8C1F1EC4186000E18803 /* Frameworks */,
 				110E8C201EC4186000E18803 /* Resources */,
+				52C2EE010F1EF3926D31DD8E /* [CP] Embed Pods Frameworks */,
+				73BA5B9B6888F30E29D79C22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 110E8C521EC4186000E18803 /* Build configuration list for PBXNativeTarget "FFmpeg_playgroundTests" */;
 			buildPhases = (
+				619208BFBD24442A728B1115 /* [CP] Check Pods Manifest.lock */,
 				110E8C371EC4186000E18803 /* Sources */,
 				110E8C381EC4186000E18803 /* Frameworks */,
 				110E8C391EC4186000E18803 /* Resources */,
+				28B7798B1AA99E59AAE9D82A /* [CP] Embed Pods Frameworks */,
+				13B168BC39B5F2FB5DD8242D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +308,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13B168BC39B5F2FB5DD8242D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FFmpeg_playgroundTests/Pods-FFmpeg_playgroundTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28B7798B1AA99E59AAE9D82A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FFmpeg_playgroundTests/Pods-FFmpeg_playgroundTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52C2EE010F1EF3926D31DD8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FFmpeg_playground/Pods-FFmpeg_playground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		619208BFBD24442A728B1115 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73BA5B9B6888F30E29D79C22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FFmpeg_playground/Pods-FFmpeg_playground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D85ED6AC9BF9EBEBECDE52B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		110E8C1E1EC4186000E18803 /* Sources */ = {
@@ -425,6 +556,7 @@
 		};
 		110E8C501EC4186000E18803 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8CBEB19F8613B8AD35A7ACA /* Pods-FFmpeg_playground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J5EPCRFAR9;
@@ -437,6 +569,7 @@
 		};
 		110E8C511EC4186000E18803 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E2A40E5885101BCFF98F01 /* Pods-FFmpeg_playground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J5EPCRFAR9;
@@ -449,6 +582,7 @@
 		};
 		110E8C531EC4186000E18803 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542B4D7E3969B59CE03CBE9B /* Pods-FFmpeg_playgroundTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = J5EPCRFAR9;
@@ -462,6 +596,7 @@
 		};
 		110E8C541EC4186000E18803 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A03D4C8C7C4BD08FC8C63E27 /* Pods-FFmpeg_playgroundTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = J5EPCRFAR9;
